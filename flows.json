@@ -31,7 +31,7 @@
         "y": 80,
         "wires": [
             [
-                "b209b82415652493"
+                "df6ba4d2532eab43"
             ]
         ]
     },
@@ -50,5 +50,29 @@
         "x": 500,
         "y": 200,
         "wires": []
+    },
+    {
+        "id": "df6ba4d2532eab43",
+        "type": "http request",
+        "z": "3af82246.3634ae",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://dummy.restapiexample.com/api/v1/employees",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 270,
+        "y": 260,
+        "wires": [
+            [
+                "b209b82415652493"
+            ]
+        ]
     }
 ]
